@@ -1,10 +1,12 @@
 import React from 'react'
 import Roll from 'react-reveal/Roll'
-import './home.css'
 
-class Home extends React.Component {
+import styled from 'styled-components'
+
+class About extends React.Component {
     render() {
         return (
+
             <div className='homeTextDiv'>
                 <Roll left cascade>
                     <div>
@@ -18,4 +20,7 @@ class Home extends React.Component {
     }
 }
 
-export default Home;
+export default About;
+
+
+

@@ -1,7 +1,8 @@
+
 import React, { useState } from "react";
 import "./nav.css";
 
-function Nav() {
+function Nav({ setCurrentPage }) {
     const [active, setActive] = useState("nav__menu");
     const [icon, setIcon] = useState("nav__toggler");
     const navToggle = () => {
@@ -16,28 +17,28 @@ function Nav() {
     };
     return (
         <nav className="nav">
-            <a href="#" className="nav__brand">
+            <a href="#" className="nav__brand" onClick={() => setCurrentPage("home")}>
                 J. Bryan McGrath
             </a>
             <ul className={active}>
                 <li className="nav__item">
-                    <a href="#" className="nav__link">
-                        Home
+                    <a href="#" className="nav__link" onClick={() => setCurrentPage("home")}>
+                        About Me
                     </a>
                 </li>
                 <li className="nav__item">
-                    <a href="#" className="nav__link">
-                        About
-                    </a>
-                </li>
-                <li className="nav__item">
-                    <a href="#" className="nav__link">
+                    <a href="#" className="nav__link" onClick={() => setCurrentPage("projects")}>
                         Portfolio
                     </a>
                 </li>
                 <li className="nav__item">
-                    <a href="#" className="nav__link">
+                    <a href="#" className="nav__link" onClick={() => setCurrentPage("contact")}>
                         Contact
+                    </a>
+                </li>
+                <li className="nav__item">
+                    <a href="#" className="nav__link" >
+                        Resume
                     </a>
                 </li>
             </ul>

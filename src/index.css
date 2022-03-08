@@ -32,8 +32,8 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--dark);
-  color: var(--light);
+  background: var(--dark) !important;
+  color: var(--light) !important;
   font-family: "Poiret One";
 }
 
@@ -225,11 +225,6 @@ textarea {
 .py-2 {
   padding-top: var(--spacing-two);
   padding-bottom: var(--spacing-two);
-}
-
-.card {
-  width: 25%;
-  text-align: center;
 }
 
 .img-thumbnail {

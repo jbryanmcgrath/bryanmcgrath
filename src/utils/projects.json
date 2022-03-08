@@ -1,0 +1,16 @@
+[{
+    "name" : "Around the World in 8 Miliseconds",
+    "image" : "https://user-images.githubusercontent.com/91582982/144324569-a9d823f9-e897-4e42-94a9-ebc5a902f619.PNG",
+    "description" : "Using the power of the World Population API Documentation | RapidAPI Get population of a country or world population. Data provided by https://www.worldometers.info/ and the Google Maps API",
+    "GitHub" : "https://github.com/erinknapp/project1-group8",
+    "deployedURL" : "https://erinknapp.github.io/project1-group8/"
+
+},
+{
+    "name" : "CRM Light",
+    "image" : "https://user-images.githubusercontent.com/92175961/152648670-74d660a4-cf9c-42f7-afb8-ced94d65f710.PNG",
+    "description" : "This is a simple CRM meant for use by small businesses and sole proprietors that need a simple app to keep track of customers and potential customers. This information is stored in a backend db and accessed by users assigned to that data by session and authentication. There are many future implementations planned but this is a MVP deployed in 8 days. Implementations include search function, updating, client side messages and UI/UX changes.",
+    "GitHub" : "https://github.com/mollyrendon/crm-lite",
+    "deployedURL" : "https://glacial-shore-58084.herokuapp.com/"
+
+}]
